@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "391faa2d-c1fd-45e1-a3df-407ef71ffa27",
+		"name": "banco-austro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12310484"
+	},
+	"item": [
+		{
+			"name": "prueba",
+			"item": [
+				{
+					"name": "/api/external/users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/external/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"external",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/external/posts/title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/external/posts/title/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"external",
+								"posts",
+								"title",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
